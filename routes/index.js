@@ -18,10 +18,10 @@ router.post('/Product', todoRoute.insertProduct)
 router.put('/Product/:id', todoRoute.updateProduct)
 router.delete('/Product/:id', todoRoute.deleteProduct)
 
-router.get('/Price', todoRoute.listPrice)
-router.get('/Price/:id', todoRoute.detailPrice)
-router.post('/Price', todoRoute.insertPrice)
-router.put('/Price/:id', todoRoute.updatePrice)
-router.delete('/Price/:id', todoRoute.deletePrice)
+// router.get('/Price', todoRoute.listPrice)
+// router.get('/Price/:id', todoRoute.detailPrice)
+// router.post('/Price', todoRoute.insertPrice)
+// router.put('/Price/:id', todoRoute.updatePrice)
+// router.delete('/Price/:id', todoRoute.deletePrice)
 
 module.exports = router
